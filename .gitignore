@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.next/
+dist/
+.turbo/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Build
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Uploads
+uploads/
+tmp/
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Docker
+.docker/
+
+# Database
+*.db
+*.sqlite
+pgdata/
+
+# Secrets
+*.secret
+credentials.json
+service-account.json
